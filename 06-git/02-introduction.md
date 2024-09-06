@@ -20,7 +20,7 @@ O que é Git:
 
   - `clone`(clonar) projetos para sua máquina e altere oque quiser pois é uma cópia.
 
-  - Controlar e acompanhar as alterações com `staging` e `committing`.
+  - Controlar e acompanhar as alterações com `staging`(status) e `committing`(commit).
 
   - `branch`(ramificação) e `merge`(juntar) para trabalhar com diferentes partes e versões de um projeto.
 
@@ -45,3 +45,40 @@ O que é Git:
   - GitHub fabrica as ferramentas que usam o Git.
 
   - GitHub é a maior plataforma de hospedagem de respositórios de projetos de código aberto do mundo, e foi comprado pela microsoft em 2018.
+
+### Nota
+
+- Clone do projeto
+
+  - Primeiro devemos baixar o projeto com o `git clone`
+
+- Fazer um pull:
+
+  - Antes de subir suas alterações com git push, é importante fazer um git pull para trazer as últimas alterações feitas por outras pessoas no repositório remoto.
+
+- Testar o código:
+
+  - Depois de puxar as novas alterações, você deve testar seu código localmente para garantir que suas modificações funcionem bem com as mudanças que outras pessoas fizeram. Isso evita a introdução de bugs ou conflitos no projeto.
+
+- Resolver conflitos (se houver):
+
+  - Se houver conflitos entre as suas mudanças e as que foram feitas por outros, o Git irá avisá-lo. Você precisará resolver esses conflitos manualmente, garantindo que o código resultante esteja correto.
+
+- Fazer um commit adicional (se necessário):
+
+  - Após resolver conflitos ou fazer ajustes para que seu código funcione com as novas alterações, você pode precisar fazer um novo commit.
+
+- Subir o código (push):
+  - Quando você tiver certeza de que o código está funcionando corretamente com as novas mudanças, pode usar git push para enviar suas alterações ao repositório remoto.
+
+### Exercícios
+
+    Gerencia projetos com repositórios(repositories).
+
+    Clona(clone) um projeto para que eu possa alterá-lo sem estragar o projeto em produção.
+
+    Controla e rastreia mudanças com o Status(staging) e Commit(committing).
+
+    atualiza(pull) a minha cópia local com todas as alterações feitas por outras pessoas.
+
+    Enviar(push) as alterações local para o projeto principal.
